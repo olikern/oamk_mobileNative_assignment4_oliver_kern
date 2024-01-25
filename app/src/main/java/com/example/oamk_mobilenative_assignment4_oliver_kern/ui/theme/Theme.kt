@@ -22,7 +22,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
+    primary = OuasOrange,
     secondary = PurpleGrey40,
     tertiary = Pink40
 
@@ -65,6 +65,7 @@ fun Oamk_mobileNative_assignment4_oliver_kernTheme(
     MaterialTheme(
         colorScheme = colorScheme,
         typography = Typography,
-        content = content
+        content = content,
+        shapes = Shapes,
     )
 }

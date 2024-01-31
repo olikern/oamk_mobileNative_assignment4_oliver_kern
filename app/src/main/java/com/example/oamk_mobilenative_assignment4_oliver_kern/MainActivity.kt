@@ -47,7 +47,7 @@ fun MyApp() {
     ) {
         Text(
             text = "My title",
-            // TODO: change to h5
+            // NOTE: h5 seems to be deprecated, used instead titleMedium
             style = MaterialTheme.typography.titleMedium,
             modifier = appModifier,
         )

@@ -15,7 +15,6 @@ val Typography = Typography(
         lineHeight = 24.sp,
         letterSpacing = 0.5.sp
     ),
-    // TODO: change to h5
     titleMedium = TextStyle(
         fontFamily = FontFamily.Serif,
         fontWeight = FontWeight.Bold,

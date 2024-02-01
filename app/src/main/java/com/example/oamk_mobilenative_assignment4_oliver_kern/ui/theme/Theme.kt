@@ -57,6 +57,8 @@ fun Oamk_mobileNative_assignment4_oliver_kernTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as Activity).window
+            // NOTE: The statusbar would be orange as well, because this version of the API applies
+            // the primary colour for it
             window.statusBarColor = colorScheme.secondary.toArgb()
             WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
         }

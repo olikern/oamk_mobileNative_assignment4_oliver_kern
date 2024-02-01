@@ -59,6 +59,9 @@ fun MyApp() {
         Button(
             onClick = { /*TODO*/ },
             modifier = appModifier,
+            // NOTE: With the new API the default shape from the Theme is not applied to buttons anymore.
+            // It therefore needs to be applied manually.
+            shape = MaterialTheme.shapes.small,
         ) {
             Text(text = "Submit")
         }
